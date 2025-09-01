@@ -2,6 +2,7 @@
     <section id="users-value" class="section-block">
         <div class="container">
             <h2>Target Users & <span class="highlight-primary">Value</span> from OmniHuman 1.5</h2>
+            <p class="subtitle">Learn who can benefit most from OmniHuman 1.5 and the unique value it provides to content creators, developers, and production studios.</p>
             <div class="content-pair">
                 <div class="half-block">
                     <h3>🎯 Target Users for <span class="highlight-secondary">OmniHuman 1.5</span>:</h3>

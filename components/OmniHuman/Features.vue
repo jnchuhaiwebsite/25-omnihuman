@@ -2,6 +2,7 @@
     <section id="features" class="section-block bg-dark">
         <div class="container">
             <h2>Core <span class="highlight-primary">Features</span> of OmniHuman 1.5</h2>
+            <p class="subtitle">Explore the powerful features that make OmniHuman 1.5 a leader in AI-driven animation, from audio-driven expressions to text-guided multimodal control.</p>
             <div class="feature-grid">
                 <div class="feature-item">
                     <h3>Audio-driven Animation with <span class="highlight-primary">OmniHuman 1.5</span></h3>

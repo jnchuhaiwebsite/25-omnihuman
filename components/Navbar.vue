@@ -8,8 +8,18 @@
         <div class="flex items-center justify-between h-20">
           <!-- Logo -->
           <div class="flex-shrink-0">
-            <NuxtLink to="/" title="MuseSteamer AI Video Generator">
-              <span class="gradient-text" style="font-size: 1.5rem; font-weight: 700;">MuseSteamer AI</span>
+            <NuxtLink to="/" title="OmniHuman Home">
+              <svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="logoGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                    <stop offset="0%" stop-color="#FFFFFF" />
+                    <stop offset="100%" stop-color="#E0E0E0" />
+                  </linearGradient>
+                </defs>
+                <text x="10" y="30" font-family="Montserrat, sans-serif" font-size="24" fill="url(#logoGradient)">
+                  <tspan font-weight="normal">Omni</tspan><tspan font-weight="bold" fill="#ff4081">Human</tspan>
+                </text>
+              </svg>
             </NuxtLink>
           </div>
 

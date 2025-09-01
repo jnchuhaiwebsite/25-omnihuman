@@ -2,21 +2,18 @@
     <section id="video-showcase" class="video-demo-section">
         <div class="container">
             <h2>See <span class="highlight-primary">OmniHuman 1.5</span> in Action</h2>
+            <p class="subtitle">This demo highlights how our advanced AI transforms a single image and voice input into a fully expressive digital human, showcasing the platform's capabilities in generating lifelike animations with emotional depth.</p>
             <div class="video-container">
-                <!-- Replace 'your-video-url.mp4' with your actual video URL, or use an iframe for YouTube/Vimeo -->
-                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <!-- Alternatively, for direct video files: -->
-                <!-- <video controls autoplay muted loop>
-                    <source src="your-video-url.mp4" type="video/mp4">
+                <video 
+                    controls 
+                    preload="none"
+                    poster="https://resp.museohuman2.com/ohuman/image/omniHuman-15.webp"
+                >
+                    <source src="https://resp.museohuman2.com/ohuman/video/omniHuman-15.mp4" type="video/mp4">
                     Your browser does not support the video tag.
-                </video> -->
+                </video>
             </div>
-            <p>Witness how <span class="highlight-primary">OmniHuman 1.5</span> transforms static images and audio into
-                dynamic, lifelike character performances. This video showcases the power of <span
-                    class="highlight-primary">OmniHuman 1.5</span>'s cutting-edge AI for various content creation needs.
-            </p>
+            <p>Witness how <span class="highlight-primary">OmniHuman 1.5</span> transforms static images and audio into dynamic, lifelike character performances. This video showcases the power of <span class="highlight-primary">OmniHuman 1.5</span>'s cutting-edge AI for various content creation needs.</p>
         </div>
     </section>
 </template>

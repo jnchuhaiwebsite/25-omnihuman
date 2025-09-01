@@ -2,6 +2,7 @@
     <section id="use-cases" class="section-block bg-dark">
         <div class="container">
             <h2>Use <span class="highlight-secondary">Cases</span> for OmniHuman 1.5</h2>
+            <p class="subtitle">From entertainment and social media to education and film production, see how OmniHuman 1.5 is being applied across various industries to create compelling content.</p>
             <div class="case-grid">
                 <div class="case-item">
                     <h3>Entertainment & Social Media with <span class="highlight-primary">OmniHuman 1.5</span></h3>

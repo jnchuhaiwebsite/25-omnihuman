@@ -54,7 +54,15 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  color: #cccccc;
+  text-align: center;
 }
 
 h3 {

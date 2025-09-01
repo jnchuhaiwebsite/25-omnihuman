@@ -2,6 +2,7 @@
     <section id="positioning" class="section-block">
         <div class="container">
             <h2>Product <span class="highlight-secondary">Positioning</span> for OmniHuman 1.5</h2>
+            <p class="subtitle">Discover how OmniHuman 1.5 is setting a new benchmark in virtual human content creation, blending cutting-edge AI to deliver unparalleled realism and emotional expressiveness.</p>
             <p><span class="highlight-primary">OmniHuman 1.5</span> is an AI-powered character animation platform built
                 on **a single image + voice input**. By combining a Multimodal Large Language Model (MLLM) with a
                 Diffusion Transformer, <span class="highlight-primary">OmniHuman 1.5</span> simulates “fast intuitive
