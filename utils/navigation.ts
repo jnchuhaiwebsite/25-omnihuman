@@ -16,14 +16,13 @@ export interface RouteItem {
 // 主路由配置
 export const mainRoutes: RouteItem[] = [
   { id: "hero", name: "Home", href: "/"},
-  { id: "how-it-works", name: "How It Works" },
-  { id: "about-musesteamer", name: "About" },
-  { id: "features", name: "Advantages" },
-  { id: "live-examples", name: "Examples" },
-  { id: "pricing", name: "Pricing" },
-  { id: "faq", name: "FAQ" },
-  { id: "blog",  name: "Blog", href: "/blog" },
-
+  { id: "video-showcase", name: "Showcase" },
+  { id: "positioning", name: "Positioning" },
+  { id: "features", name: "Features" },
+  { id: "users-value", name: "Users" },
+  { id: "use-cases", name: "Use Cases" },
+  // { id: "pricing", name: "Pricing", href: "/pricing" },
+  // { id: "blog",  name: "Blog", href: "/blog" },
 ]
 
 
