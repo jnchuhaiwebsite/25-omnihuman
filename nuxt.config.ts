@@ -47,7 +47,7 @@ export default defineNuxtConfig({
         { name: 'twitter:description', content: 'Discover MuseSteamer AI for fast, seamless video creation and editing. Simple to use, versatile styles, and perfect for creators, designers, and businesses.' },
         { name: 'twitter:image', content: '/favicon.ico' },
         // Keywords
-        { name: 'keywords', content: 'MuseSteamer, MuseSteamer AI, MuseSteamer video generator, MuseSteamer video editing, MuseSteamer New model' },
+        { name: 'keywords', content: 'OmniHuman 1.5, OmniHuman, OmniHuman 1.5 Demo, OmniHuman 1.5 Showcase, OmniHuman 1.5 Features, OmniHuman 1.5 Use Cases, OmniHuman 1.5 Pricing, OmniHuman 1.5 FAQ' },
         { name: 'author', content: 'MuseSteamer Team' },
         { name: 'application-name', content: 'MuseSteamer AI Video Generator' },
       ],

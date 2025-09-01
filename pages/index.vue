@@ -22,7 +22,7 @@ import { useSeo } from '~/composables/useSeo';
 
 useSeo({
   title: 'OmniHuman 1.5 - AI-Powered Character Animation Platform',
-  description: 'Welcome to OmniHuman 1.5, an advanced AI-powered character animation platform. OmniHuman 1.5 excels by generating expressive digital avatars from just a single image and a voice input.',
+  description: 'OmniHuman 1.5 transforms a single photo and voice into lifelike digital avatars, delivering advanced AI character animation with expressive realism.',
 })
 </script>
 
