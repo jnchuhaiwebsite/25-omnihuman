@@ -44,15 +44,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 3.8em; /* Robust H1 */
     font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 h2 {
     font-size: 2.8em;
     font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -171,11 +167,9 @@ ul li::before {
 @media (max-width: 480px) {
     h1 {
         font-size: 2em;
-        letter-spacing: 1px;
     }
     h2 {
         font-size: 1.8em;
-        letter-spacing: 1px;
     }
     .btn {
         padding: 12px 20px;

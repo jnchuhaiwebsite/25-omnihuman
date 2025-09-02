@@ -1,24 +1,24 @@
 <template>
     <section id="use-cases" class="section-block bg-dark">
         <div class="container">
-            <h2>Use <span class="highlight-secondary">Cases</span> for OmniHuman 1.5</h2>
+            <h2>Use <span class="highlight-secondary">Cases</span></h2>
             <p class="subtitle">From entertainment and social media to education and film production, see how OmniHuman 1.5 is being applied across various industries to create compelling content.</p>
             <div class="case-grid">
                 <div class="case-item">
-                    <h3>Entertainment & Social Media with <span class="highlight-primary">OmniHuman 1.5</span></h3>
-                    <p>Create engaging short-form videos, virtual singers' MVs, and streaming avatars using <span class="highlight-primary">OmniHuman 1.5</span>.</p>
+                    <h3>Entertainment & Social Media</h3>
+                    <p>Create engaging short-form videos, virtual singers' MVs, and streaming avatars.</p>
                 </div>
                 <div class="case-item">
-                    <h3>Education & Training with <span class="highlight-primary">OmniHuman 1.5</span></h3>
-                    <p>Develop virtual lecturers, animated storytelling for kids, and role-based language learning with <span class="highlight-primary">OmniHuman 1.5</span>.</p>
+                    <h3>Education & Training</h3>
+                    <p>Develop virtual lecturers, animated storytelling for kids, and role-based language learning.</p>
                 </div>
                 <div class="case-item">
-                    <h3>Gaming & Metaverse powered by <span class="highlight-primary">OmniHuman 1.5</span></h3>
-                    <p>Enable immersive NPC dialogue & story acting, and large-scale character generation with <span class="highlight-primary">OmniHuman 1.5</span>.</p>
+                    <h3>Gaming & Metaverse</h3>
+                    <p>Enable immersive NPC dialogue & story acting, and large-scale character generation.</p>
                 </div>
                 <div class="case-item">
-                    <h3>Film Production utilizing <span class="highlight-primary">OmniHuman 1.5</span></h3>
-                    <p>Enhance animation pre-visualization, digital doubles, and crowd character creation with <span class="highlight-primary">OmniHuman 1.5</span>.</p>
+                    <h3>Film Production</h3>
+                    <p>Enhance animation pre-visualization, digital doubles, and crowd character creation.</p>
                 </div>
             </div>
         </div>

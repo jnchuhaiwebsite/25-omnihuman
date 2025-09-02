@@ -1,9 +1,9 @@
 <template>
     <section id="cta" class="section-block cta-section">
         <div class="container">
-            <h2>Ready to <span class="highlight-primary">Experience the Future</span> with OmniHuman 1.5?</h2>
-            <p>Discover how <span class="highlight-primary">OmniHuman 1.5</span> can revolutionize your content creation workflow. Start your journey with <span class="highlight-primary">OmniHuman 1.5</span> today!</p>
-            <a href="#" class="btn btn-secondary">Watch OmniHuman 1.5 Demo Video</a>
+            <h2>Ready to <span class="highlight-primary">Experience the Future</span>?</h2>
+            <p>Discover how OmniHuman 1.5 can revolutionize your content creation workflow. Start your journey today!</p>
+            <a href="#" class="btn btn-secondary">Watch Demo Video</a>
         </div>
     </section>
 </template>

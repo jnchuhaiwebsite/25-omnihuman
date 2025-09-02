@@ -20,7 +20,7 @@
                     </svg>
                 </button>
             </div>
-            <p>Witness how <span class="highlight-primary">OmniHuman 1.5</span> transforms static images and audio into dynamic, lifelike character performances. This video showcases the power of <span class="highlight-primary">OmniHuman 1.5</span>'s cutting-edge AI for various content creation needs.</p>
+            <p>Witness how our technology transforms static images and audio into dynamic, lifelike character performances. This video showcases the power of our cutting-edge AI for various content creation needs.</p>
         </div>
     </section>
 </template>

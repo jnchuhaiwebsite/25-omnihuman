@@ -25,14 +25,15 @@
         <div class="flex-1">
           <div class="flex flex-col items-center text-center">
             <NuxtLink to="/" title="OmniHuman Home">
-              <svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+              <svg width="240" height="40" viewBox="0 0 240 40" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <linearGradient id="logoGradient" x1="0%" y1="50%" x2="100%" y2="50%">
                       <stop offset="0%" stop-color="#FFFFFF" />
                       <stop offset="100%" stop-color="#E0E0E0" />
                     </linearGradient>
                   </defs>
-                  <text x="10" y="30" font-family="Montserrat, sans-serif" font-size="24" fill="url(#logoGradient)">
+                  <image href="/favicon.ico" x="10" y="5" width="30" height="30" />
+                  <text x="50" y="30" font-family="Montserrat, sans-serif" font-size="24" fill="url(#logoGradient)">
                     <tspan font-weight="normal">Omni</tspan><tspan font-weight="bold" fill="#ff4081">Human</tspan>
                   </text>
               </svg>

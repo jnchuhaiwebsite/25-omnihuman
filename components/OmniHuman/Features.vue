@@ -1,36 +1,35 @@
 <template>
     <section id="features" class="section-block bg-dark">
         <div class="container">
-            <h2>Core <span class="highlight-primary">Features</span> of OmniHuman 1.5</h2>
+            <h2>Core <span class="highlight-primary">Features</span></h2>
             <p class="subtitle">Explore the powerful features that make OmniHuman 1.5 a leader in AI-driven animation, from audio-driven expressions to text-guided multimodal control.</p>
             <div class="feature-grid">
                 <div class="feature-item">
-                    <h3>Audio-driven Animation with <span class="highlight-primary">OmniHuman 1.5</span></h3>
-                    <p>The <span class="highlight-primary">OmniHuman 1.5</span> model transcends simple lip-sync and
+                    <h3>Audio-driven Animation</h3>
+                    <p>The model transcends simple lip-sync and
                         repetitive gestures by interpreting audio's semantic context, enabling characters to exhibit
                         genuine emotional shifts and match gestures to their words and intent, as if driven by a will of
-                        their own. This is a key capability of <span class="highlight-primary">OmniHuman 1.5</span>.</p>
+                        their own.</p>
                 </div>
                 <div class="feature-item">
-                    <h3>Text-guided Multimodal Animation in <span class="highlight-primary">OmniHuman 1.5</span></h3>
-                    <p>Our carefully designed <span class="highlight-primary">OmniHuman 1.5</span> framework accepts
+                    <h3>Text-guided Multimodal Animation</h3>
+                    <p>Our carefully designed framework accepts
                         text prompts and demonstrates exceptional prompt-following, enabling precise control over object
-                        generation, camera movements, and specific actions, all while maintaining perfect audio sync.
-                        Control your animations with <span class="highlight-primary">OmniHuman 1.5</span>.</p>
+                        generation, camera movements, and specific actions, all while maintaining perfect audio sync.</p>
                 </div>
                 <div class="feature-item">
-                    <h3>Multi-Person Scene Performance by <span class="highlight-primary">OmniHuman 1.5</span></h3>
-                    <p>The <span class="highlight-primary">OmniHuman 1.5</span> framework extends to complex
+                    <h3>Multi-Person Scene Performance</h3>
+                    <p>The framework extends to complex
                         multi-person scenes. It generates dynamic group dialogues and ensemble performances by routing
-                        separate audio tracks to the correct characters in a single frame. Multi-character interactions
-                        are seamless with <span class="highlight-primary">OmniHuman 1.5</span>.</p>
+                        separate audio tracks to the correct characters in a single frame, making multi-character interactions
+                        seamless.</p>
                 </div>
                 <div class="feature-item">
-                    <h3>Cross-Style Adaptability of <span class="highlight-primary">OmniHuman 1.5</span></h3>
-                    <p>The <span class="highlight-primary">OmniHuman 1.5</span> model demonstrates true robustness by
+                    <h3>Cross-Style Adaptability</h3>
+                    <p>The model demonstrates true robustness by
                         generating high-quality, synchronized video across an incredible diversity of subjects,
                         including real animals, anthropomorphic characters, and stylized cartoons. Whatever your style,
-                        <span class="highlight-primary">OmniHuman 1.5</span> adapts.</p>
+                        our platform adapts.</p>
                 </div>
                 <!-- <div class="feature-item">
                     <h3>Long-Form Video Generation with <span class="highlight-primary">OmniHuman 1.5</span></h3>
