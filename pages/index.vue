@@ -1,22 +1,23 @@
 <template>
   <main>
     <OmniHumanHero />
-    <OmniHumanVideoShowcase />
+    <OmniHumanUseCases />
     <OmniHumanPositioning />
     <OmniHumanFeatures />
     <OmniHumanUsersValue />
-    <OmniHumanUseCases />
+    <OmniHumanFaq />
+
     <!-- <OmniHumanCta /> -->
   </main>
 </template>
 
 <script setup lang="ts">
 import OmniHumanHero from '~/components/OmniHuman/Hero.vue'
-import OmniHumanVideoShowcase from '~/components/OmniHuman/VideoShowcase.vue'
 import OmniHumanPositioning from '~/components/OmniHuman/Positioning.vue'
 import OmniHumanFeatures from '~/components/OmniHuman/Features.vue'
 import OmniHumanUsersValue from '~/components/OmniHuman/UsersValue.vue'
 import OmniHumanUseCases from '~/components/OmniHuman/UseCases.vue'
+import OmniHumanFaq from '~/components/OmniHuman/Faq.vue'
 import OmniHumanCta from '~/components/OmniHuman/Cta.vue'
 import { useSeo } from '~/composables/useSeo';
 
@@ -139,7 +140,7 @@ ul li::before {
 /* Content Blocks */
 .section-block {
     padding: 80px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08); /* Thin separator between blocks */
+    border-bottom: 1px solid rgba(2, 2, 2, 0.08); /* Thin separator between blocks */
 }
 
 .section-block:last-of-type {
@@ -147,7 +148,7 @@ ul li::before {
 }
 
 .section-block.bg-dark {
-    background-color: #2a2a2a; /* Dark background block */
+    background-color: #1d1c1c; /* Dark background block */
 }
 
 /* Responsive Design */
