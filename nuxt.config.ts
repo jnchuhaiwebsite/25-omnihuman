@@ -53,7 +53,7 @@ export default defineNuxtConfig({
       ],
       script: [
         { src: '/js/c6h.js', async: true } 
-      ], // 外部脚本
+      ], // 外部脚本2222
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'canonical', href: 'https://www.omnihuman-15.com' }
