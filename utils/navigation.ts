@@ -21,6 +21,8 @@ export const mainRoutes: RouteItem[] = [
   { id: "features", name: "Features" },
   { id: "users-value", name: "Users" },
   { id: "use-cases", name: "Use Cases" },
+  // { id: "faq", name: "Faq", href: "/faq", icon: "faq" },
+  { id: "blog", name: "Blog", href: "/blog", icon: "book" },
   // { id: "pricing", name: "Pricing", href: "/pricing" },
   // { id: "blog",  name: "Blog", href: "/blog" },
 ]

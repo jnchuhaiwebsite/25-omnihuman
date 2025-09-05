@@ -1,23 +1,24 @@
 <template>
-  <div class="container mx-auto px-4 " style="background-color: var(--bg-color);">
-    <div class="mt-20">
-      <Breadcrumbs :items="breadcrumbItems" />
-    </div>
-    <PageHero title="MuseSteamer AI Blog"
-      subtitle="Tips, tutorials, and inspiration to create professional videos with MuseSteamer AI." />
+  <div class="min-h-screen" style="background-color: #0D1117;">
+    <div class="container mx-auto px-4">
+      <div class="mt-20">
+        <Breadcrumbs :items="breadcrumbItems" />
+      </div>
+      <PageHero title="OmniHuman 1.5 Blog"
+        subtitle="Tips, tutorials, and inspiration to create professional videos with OmniHuman 1.5." />
 
-    <!-- Categories filter -->
-    <div class="mx-auto w-11/12 max-w-4xl mb-8">
-      <div class="flex flex-wrap justify-center gap-2 md:gap-3">
-        <div v-for="category in allCategories" :key="category.id"
-          class="px-4 py-2 rounded-lg transition-all cursor-pointer text-sm md:text-base font-medium" :class="currentCategory === category.id.toString()
-            ? 'bg-gradient-to-r from-[#6209F6]/50 to-[#83D0FB]/50 text-white shadow-md'
-            : 'bg-gray-800/80 text-slate-300 hover:bg-gray-700/70 border border-white/10'"
-          @click="handleCategoryChange(category.id.toString())">
-          {{ category.name }}
+      <!-- Categories filter -->
+      <div class="mx-auto w-11/12 max-w-4xl mb-8">
+        <div class="flex flex-wrap justify-center gap-2 md:gap-3">
+          <div v-for="category in allCategories" :key="category.id"
+            class="px-4 py-2 rounded-lg transition-all cursor-pointer text-sm md:text-base font-medium" :class="currentCategory === category.id.toString()
+              ? 'bg-gradient-to-r from-[#6209F6] via-[#DC8AF6] to-[#83D0FB] text-white shadow-lg shadow-[#6209F6]/25'
+              : 'bg-[#161B22]/80 text-[#E6EDF3] hover:bg-[#161B22] border border-[#30363D] hover:border-[#83D0FB]/50'"
+            @click="handleCategoryChange(category.id.toString())">
+            {{ category.name }}
+          </div>
         </div>
       </div>
-    </div>
 
     <!-- Blog list -->
     <div class="mx-auto w-11/12 max-w-4xl">
@@ -31,21 +32,17 @@
         <div v-else>
           <div class="space-y-4 md:space-y-6">
             <div v-for="post in blogData?.blogList || []" :key="post.id"
-              class="block bg-gray-800/80 rounded-xl p-4 md:p-6 shadow-lg hover:shadow-2xl transition-all border border-white/10 hover:border-[#6209F6] hover:-translate-y-1 cursor-pointer group backdrop-blur-xl"
+              class="block bg-[#161B22]/80 rounded-xl p-4 md:p-6 shadow-lg hover:shadow-2xl transition-all border border-[#30363D] hover:border-[#83D0FB] hover:-translate-y-1 cursor-pointer group backdrop-blur-xl"
               @click="navigateToBlog(post)">
               <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-2 md:gap-4 mb-3 md:mb-4">
                 <div class="flex-1 min-w-0">
                   <h2
-                    class="text-lg md:text-xl font-bold mb-1 md:mb-2 text-slate-100 group-hover:text-[#83D0FB] transition-colors truncate">
+                    class="text-lg md:text-xl font-bold mb-1 md:mb-2 text-[#E6EDF3] group-hover:text-[#83D0FB] transition-colors truncate">
                     {{ post.title }}</h2>
-                  <p class="text-sm md:text-base text-slate-400 line-clamp-2">{{ post.abstract }}</p>
+                  <p class="text-sm md:text-base text-[#8B949E] line-clamp-2">{{ post.abstract }}</p>
                 </div>
-                <span
-                  class="px-3 py-1 bg-gradient-to-r from-[#6209F6]/80 to-[#83D0FB]/80 text-white text-xs md:text-sm rounded-full whitespace-nowrap inline-block w-fit font-medium">
-                  {{ getCategoryLabel(post.class_id) }}
-                </span>
               </div>
-              <div class="text-slate-500 text-xs md:text-sm">
+              <div class="text-[#8B949E] text-xs md:text-sm">
                 {{ formatDate(post.created_time) }}
               </div>
             </div>
@@ -53,8 +50,8 @@
 
           <!-- Empty state -->
           <div v-if="(blogData?.blogList || []).length === 0" class="text-center py-20">
-            <h2 class="text-2xl font-bold text-slate-100 mb-4">No Blog Posts Found</h2>
-            <p class="text-slate-400">No blog posts found in the current category.</p>
+            <h2 class="text-2xl font-bold text-[#E6EDF3] mb-4">No Blog Posts Found</h2>
+            <p class="text-[#8B949E]">No blog posts found in the current category.</p>
           </div>
 
           <!-- Pagination -->
@@ -64,7 +61,7 @@
               <!-- Previous page button -->
               <button @click="goToPage(currentPage - 1)" :disabled="currentPage <= 1"
                 class="px-3 py-2 rounded-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
-                :class="currentPage <= 1 ? 'bg-gray-800 text-slate-600' : 'bg-gray-800/80 border border-white/10 text-slate-300 hover:bg-gray-700/70 hover:border-[#6209F6]'">
+                :class="currentPage <= 1 ? 'bg-[#161B22] text-[#8B949E]' : 'bg-[#161B22]/80 border border-[#30363D] text-[#E6EDF3] hover:bg-[#161B22] hover:border-[#83D0FB]'">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
                 </svg>
@@ -75,17 +72,17 @@
                 <template v-for="page in visiblePages" :key="page">
                   <button v-if="page !== '...'" @click="goToPage(page)"
                     class="px-3 py-2 rounded-lg transition-all text-sm font-medium"
-                    :class="page === currentPage ? 'bg-gradient-to-r from-[#6209F6]/50 to-[#83D0FB]/50 text-white shadow-md' : 'bg-gray-800/80 border border-white/10 text-slate-300 hover:bg-gray-700/70 hover:border-[#6209F6]'">
+                    :class="page === currentPage ? 'bg-gradient-to-r from-[#6209F6] via-[#DC8AF6] to-[#83D0FB] text-white shadow-lg shadow-[#6209F6]/25' : 'bg-[#161B22]/80 border border-[#30363D] text-[#E6EDF3] hover:bg-[#161B22] hover:border-[#83D0FB]'">
                     {{ page }}
                   </button>
-                  <span v-else class="px-2 text-slate-500">...</span>
+                  <span v-else class="px-2 text-[#8B949E]">...</span>
                 </template>
               </div>
 
               <!-- Next page button -->
               <button @click="goToPage(currentPage + 1)" :disabled="currentPage >= computedTotalPages"
                 class="px-3 py-2 rounded-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
-                :class="currentPage >= computedTotalPages ? 'bg-gray-800 text-slate-600' : 'bg-gray-800/80 border border-white/10 text-slate-300 hover:bg-gray-700/70 hover:border-[#6209F6]'">
+                :class="currentPage >= computedTotalPages ? 'bg-[#161B22] text-[#8B949E]' : 'bg-[#161B22]/80 border border-[#30363D] text-[#E6EDF3] hover:bg-[#161B22] hover:border-[#83D0FB]'">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                 </svg>
@@ -95,13 +92,14 @@
 
           <!-- Page info -->
           <div v-if="(blogData?.blogList || []).length > 0 && (blogData?.total || 0) > 20"
-            class="mt-4 text-center text-sm text-slate-500">
+            class="mt-4 text-center text-sm text-[#8B949E]">
             Showing {{ (currentPage - 1) * pageSize + 1 }} to {{ Math.min(currentPage * pageSize, blogData?.total || 0)
             }} of {{
               blogData?.total || 0 }} posts
           </div>
         </div>
       </div>
+    </div>
     </div>
   </div>
 </template>
@@ -125,12 +123,12 @@ declare const useAsyncData: <T>(key: string, handler: () => Promise<T>) => Promi
 const router = useRouter()
 
 const breadcrumbItems = ref([
-  { text: 'MuseSteamer AI Blog' },
+  { text: 'OmniHuman 1.5 Blog' },
   // { text: 'Seedance AI Blog' } // 最后一项没有 'to' 属性
 ]);
 useSeo({
-  title: "MuseSteamer AI Blog: Latest News",
-  description: "MuseSteamer AI Blog shares insights on AI video creation, audio features, and creative workflows. Stay updated with guides, news and tutorials.",
+  title: "OmniHuman 1.5 Blog: Latest News",
+  description: "OmniHuman 1.5 Blog shares insights on AI video creation, audio features, and creative workflows. Stay updated with guides, news and tutorials.",
 });
 
 // 使用 useAsyncData 获取数据

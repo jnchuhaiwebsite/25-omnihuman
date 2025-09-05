@@ -45,7 +45,7 @@
             <div class="text-sm">
               <p>© 2025 OmniHuman All rights reserved.</p>
               <p>
-                <a href="mailto:support@omniHuman-15.com" class="footer-link" title="Email">support@omniHuman-15.com</a>
+                <a href="mailto:support@omnihuman-15.com" class="footer-link" title="Email">support@omnihuman-15.com</a>
               </p>
             </div>
           </div>
