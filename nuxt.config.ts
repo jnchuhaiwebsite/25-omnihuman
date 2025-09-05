@@ -56,7 +56,7 @@ export default defineNuxtConfig({
       ], // 外部脚本2222
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'canonical', href: 'https://www.omnihuman-15.com' }
+        { rel: 'canonical', href: '' }
       ]
     }
   },
